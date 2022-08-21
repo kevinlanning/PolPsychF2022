@@ -1,0 +1,129 @@
+---
+title: 'syllabus: honors political psychology'
+author: ''
+date: ''
+output:
+  html_document: default
+---
+
+This document is current as of `r Sys.Date()`.
+
+### basics
+
+This is POS 4206 Section 1. It is a 3 credit class offered in the **Fall 2022** term. The class meets **MW 930-1150 in SR 258**. There is no lab.
+
+The professor is Kevin Lanning. My office hours are **M 3-5** (in person, WB 105) and **F 1230-2** (virtually, via Zoom). You may schedule virtual appointments at <https://calendly.com/kevin-lanning>. My office phone is (561) 594-1018, but it is quicker to reach me via email at [lanning\@fau.edu](mailto:lanning@fau.edu){.email}.
+
+**course description:** Political psychology is an intermediate-level undergraduate class which lies at the intersection of political science and psychology. The scope of political psychology is broad. Psychology and politics meet in the decisions of voters and in the deliberations of diplomats, in the design of ballots and in the personality of Presidents, in the construction of campaign ads and in the life histories of conservatives and liberals, in traits such as Narcissism, Social Dominance, Machiavellianism, and Authoritarianism, in the responsibilities of a clinical psychologist charged with counseling enemy combatants at Guantanamo, and, perhaps most critically, in actions such as your own casting of a ballot in this year's election.
+
+Today, the idea of "political psychology" is increasingly central in the liberal arts. What is truth, and how can we find and share it? What is civility, and how do we reconcile our respect for each other as individuals with deeper values such as freedom and equality? What is leadership, and what responsibilities does it carry? Who am I, and to what extent is my identity linked with my social and political attitudes? How shall I live my life, and how much of it do I want to devote to political participation and public service?
+
+**course instructional method:** In-person.
+
+**course prerequisites / co-requisites**: Prerequisites are POS 1041 or PSY 1012 or permission of instructor. There are no co-requisites.
+
+### course objectives / student learning outcomes
+
+In the seminar, the primary goal is to introduce students to the field of political psychology from perspectives of psychology and politics. From a psychological perspective, this will include perspectives on personality (including the personality of leaders), emotions (including fear and hate), social psychology (the role of situations and group influences), cognitive psychology (persuasion and political decision making), and developmental psychology (including the predictability of ideology from childhood). From a political science perspective, our focus will primarily be on American Government, but we may also consider issues in International Relations (such as conflict resolution), and in Political Theory (how forms of government including democracy interact with the self-concept).
+
+A second goal, woven throughout the term, is to introduce students to the broad range of (often clever) methods used in research in political psychology.
+
+A third goal in the course is to provide a social scientific context for biennial elections, that is, to help students understand candidates and campaigns at a deeper level, and so to become more informed citizens.
+
+Finally, a fourth goal is to foster in you a sense of citizenship and social responsibility and an appreciation of the virtue of political participation.
+
+**note of honors distinction:** The course receives honors credit by virtue of its small class size, by virtue of a dialectic approach in the classroom structure, and by the fact that students receive extensive exposure to supplementary materials and primary sources. This course differs substantially from a non-Honors course in that (a) the expectations for participation in class discussions will be greater than in a typical undergraduate course with a larger number of students, (b) class projects will be undertaken in heterogeneous groups in which students will be teaching and learning from their peers as well as the instructor, (c) students receive extensive exposure to primary research articles.
+
+### course assessments, assignments, & grading policy
+
+Grades will be based on exams, a term paper, and classroom performance, as follows:
+
+**From in-class quizzes, 15%** Some classes will begin with a brief quiz asking questions such as (a) which paper(s) or chapter(s) have you read, (b) how much time you spent reading, (c) a comment or question that you would like to share with the class, and (d) whether this is a topic that you would like to study in more depth.
+
+**From class participation, 15%.** You can earn class participation points by (a) attending class, (b) by making contributions to discussion which indicate that you have thoughtfully studied the assignments in a timely fashion, and (c) by listening to and selectively reinforcing the best comments of your peers. 
+
+**From a collaboratively-written paper, 20%.** Learning is social. In the first half of the class, you will be asked to write a collaborative paper with two to four of your peers. In order for me to assess your individual contributions and to minimize social loafing, I ask that (1) all writing be done on Google docs, and (2) in addition to the paper, that all group members sign a 1-page cover page describing the primary contribution and percent effort of each person. We'll work together on creating groups that will, hopefully, maximize synergies among you, that is, how much you learn from each other as well as the quality of the final paper itself.
+
+**From a class project, 30%.** The project will have two parts, (a) helping to lead a discussion and (b) writing a brief paper. For the presentation, you will be expected to help lead one class (with me and one or more of your classmates) during the second half of the term.  Typically, this will involve sharing one or more insights that you have gained from a close reading of one of the papers. You will need to work with your classmates to make sure that there is a minimum of duplication in the points that you will be presenting. The paper will be between 4 - 6 pages in length and will expand on this topic. Topics will be typically chosen from sections A-H in the list of readings. In some cases, your collaboratively or individually written papers will be the first step towards your undergraduate honors thesis. (In the library, you can find a number of undergraduate theses on political psychology from WHC alumni, including Scott Bush, Joe Colucci, Sam Montgomery, Marina Perez, Ari Rosenberg, and Melissa Stephan).
+
+**From a final examination, 20%.** The final examination may include multiple-choice questions as well as essays. A sample final exam study sheet can be found in the files section of Canvas.
+
+**Extra credit, 0 - 5%.** You may earn extra credit by working with political campaigns or otherwise fostering civic engagement, (e.g., by helping register voters or taking steps to reduce the spread of misinformation). You will need to provide evidence of this on a Google Form by the last day of class. 
+
+### course grading scale
+
+```{r echo=FALSE, message=FALSE}
+library(tidyverse)
+library(kableExtra)
+scale <- tibble (grade = c("A","A-","B+",
+                           "B","B-","C+",
+                           "C","C-","D+",
+                           "D","D-","F"),
+                 min = c(93, 90, 87,
+                        83, 80, 77,
+                        73, 70, 67,
+                        63, 60, 0),
+                 max = c(100, 92, 89,
+                        86, 82, 79,
+                        76, 72, 69,
+                        66, 62, 59))
+kable(t(scale)) %>% 
+    kable_styling()
+
+```
+
+*note that in borderline cases, students may receive the higher of two grades if there is evidence of sustained effort and/or improvement over the course of the term*
+
+### required texts and materials
+
+Houghton, D. P. (2015). *Political Psychology: Situations, individuals, and cases, 2nd Ed.* NY: Routledge. (required)
+
+Additional readings available in Canvas. Please see the readings tab on the class home page (ref).
+
+### language about free speech, objectivity, academic freedom, and interpersonal trust (added in response to Florida HB7)
+
+**language recommended by the FAU Provost's office** "One of the objectives of this course is to facilitate critical thinking and debate around topics, theories, and concepts where disagreement is not only anticipated, but encouraged. The ability to think critically, express your ideas clearly, and respond to the professor and other students civilly are the keystones of the academic experience. In this course, the professor will provide instruction in an objective manner and will remain open to a wide variety of viewpoints, so long as those viewpoints are evidence-based and presented in a respectful way. During class, the professor may take positions and make statements for the sole purpose of accomplishing an academic objective or enhancing the learning environment. Additionally, the adoption of class materials for this course does not imply an endorsement of the full content of those materials or the positions of the authors of those materials. Often the professor will provide materials as a point of departure for critical thinking and debate. Students should keep in mind that the ideas presented or discussed during class may not necessarily reflect the professor's personal beliefs or opinions on the subject matter."
+
+**language recommended by the United Faculty of Florida** "Students are encouraged to employ critical thinking and to rely on data and verifiable sources to interrogate all assigned readings and subject matter in this course as a way of determining whether they agree with their classmates and/or their instructor. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief."
+
+**a personal comment** It is critical that the interpersonal trust and appreciation for human dignity that characterize the campus community and frame our classroom discourse remain intact.
+
+------------------------------------------------------------------------
+
+### schedule and due dates
+
+The schedule is a dynamic document. **With the exception of scheduled exam and paper due dates, all content is subject to change.** Please monitor the announcements in Canvas for the latest updates.
+
+Our working schedule may be found at <ins><http://bit.ly/PolPsychF2022Sched> </ins>. Here is the schedule as of `r Sys.Date()`:
+
+<iframe width="800" height="600" src="https://docs.google.com/spreadsheets/d/1uh_ODcFj7aG7E_GSF_PbIt4qIjWtPUpe85lOCVmjF4w/edit?usp=sharing">
+
+</iframe>
+
+For readings listed in parentheses (Smith2020 or Jones2014) you will be expected to read only one of the papers. The readings are likely to be pared as we proceed. Again, please see <https://bit.ly/PolPsychF2022Schedule> for the latest updates.
+
+### additional selected university & college policies
+
+**incomplete grade policy:** University policy states that a student who is passing a course, but has not completed all work due to exceptional circumstances, may, with consent of the instructor, temporarily receive a grade of incomplete ("I"). The assignment of the "I" grade is at the discretion of the instructor, but is allowed only if the student is passing the course.
+
+**attendance policy:** Students are expected to attend all of their scheduled University classes and to satisfy all academic objectives as outlined by the instructor. The effect of absences upon grades is determined by the instructor, and the University reserves the right to deal at any time with individual cases of non-attendance. Students are responsible for arranging to make up work missed because of legitimate class absence, such as illness, family emergencies, military obligation, court-imposed legal obligations or participation in University-approved activities. Examples of University-approved reasons for absences include participating on an athletic or scholastic team, musical and theatrical performances and debate activities. It is the student's responsibility to give the instructor notice prior to any anticipated absences and within a reasonable amount of time after an unanticipated absence, ordinarily by the next scheduled class meeting. Instructors must allow each student who is absent for a University-approved reason the opportunity to make up work missed without any reduction in the student's final course grade as a direct result of such absence.
+
+**time commitment per credit hour:** This course has three (3) credit hours. For traditionally delivered courses, not less than one (1) hour of classroom or direct faculty instruction each week is expected for fifteen (15) weeks per Fall or Spring semester, and a minimum of two (2) hours of out-of-class student work for each credit hour. Equivalent time and effort is required for Summer Semesters, which usually have a shortened timeframe. Fully online courses, hybrid, shortened, intensive format courses, and other non-traditional modes of delivery will demonstrate equivalent time and effort.
+
+**classroom etiquette/disruptive behavior policy statement:** Disruptive behavior is defined in the FAU Student Code of Conduct as "... activities which interfere with the educational mission within classroom." Students who disrupt the educational experiences of other students and/or the instructor's course objectives in a face-to-face or online course are subject to disciplinary action. Such behavior impedes students' ability to learn or an instructor's ability to teach. Disruptive behavior may include, but is not limited to non-approved use of electronic devices (including cellular telephones); cursing or shouting at others in such a way as to be disruptive; or, other violations of an instructor's expectations for classroom conduct. For more information, please see the [FAU Office of Student Conduct](http://www.fau.edu/studentconduct/).
+
+**code of academic integrity policy statement:** Students at Florida Atlantic University should endeavor to maintain the highest ethical standards. Academic dishonesty is a serious breach of these ethical standards, because it interferes with the University mission to provide a high quality education in which no student enjoys an unfair advantage over any other. Academic dishonesty is also destructive to the university community, which is grounded in a system of mutual trust and places high value on personal integrity and individual responsibility. Harsh penalties are associated with academic dishonesty. For more information, see [University Regulation 4.001](http://www.fau.edu/regulations/chapter4/4.001_Code_of_Academic_Integrity.pdf) and the WHC code at <http://www.fau.edu/honors/academics/honor-code.php>.
+
+[**Plagiarism**](http://libguides.fau.edu/c.php?g=325629&p=2352760) is the deliberate use and appropriation of another's work without identifying the source and trying to pass off such work as one's own. Any student who fails to give full credit for ideas or materials taken from another has plagiarized. This includes all discussion board posts, journal entries, wikis, and other written and oral presentation assignments. Plagiarism is unacceptable in the University community. Academic work must be an original work of your own thought, research, or self-expression. When students borrow ideas, wording, or organization from another source, they must acknowledge that fact in an appropriate manner. If in doubt, cite your source.
+
+**disability (accessibility) policy statement:** In compliance with the Americans with Disabilities Act Amendments Act (ADAAA), students who require reasonable accommodations due to a disability to properly execute coursework must register with Student Accessibility Services (SAS) and follow all SAS procedures. SAS has offices across three of FAU's campuses -- Boca Raton, Davie and Jupiter -- however disability services are available for students on all campuses. For more information, please visit the SAS website at [www.fau.edu/sas/](http://www.fau.edu/sas/).
+
+**grade appeal process:** You may request a review of the final course grade when you believe that one of the following conditions apply: There was a computational or recording error in the grading, the grading process used non-academic criteria, there was a gross violation of the instructor's own grading system. [Chapter 4 of the University Regulations](http://www.fau.edu/regulations/chapter4/index.php) contains information on the grade appeals process.
+
+**religious accommodation policy statement:** In accordance with rules of the Florida Board of Education and Florida law, students have the right to reasonable accommodations from the University in order to observe religious practices and beliefs with regard to admissions, registration, class attendance, and the scheduling of examinations and work assignments. For further information, please see [Academic Policies and Regulations](http://www.fau.edu/academic/registrar/FAUcatalog/academics.php).
+
+**university approved absence policy statement:** In accordance with rules of the Florida Atlantic University, students have the right to reasonable accommodations to participate in University approved activities, including athletic or scholastics teams, musical and theatrical performances and debate activities. It is your responsibility to notify the instructor at least one week prior to missing any course assignment.
+
+**drops/withdrawals:** You are responsible for completing the process of dropping or withdrawing from a course. Please click on the following link for more information on dropping and/or withdrawing from a course. Please consult the [FAU Registrar Office](http://www.fau.edu/registrar/registration/faqs.php) for more information.
+
+**counseling and psychological services (CAPS) center:** Life as a university student can be challenging physically, mentally and emotionally. Students who find stress negatively affecting their ability to achieve academic or personal goals may wish to consider utilizing FAU's Counseling and Psychological Services (CAPS) Center. CAPS provides FAU students a range of services -- individual counseling, support meetings, and psychiatric services, to name a few -- offered to help improve and maintain emotional well-being. For more information, go to \_[*http://www.fau.edu/counseling/*](http://www.fau.edu/counseling/).

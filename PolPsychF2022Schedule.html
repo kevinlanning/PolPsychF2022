@@ -11,12 +11,12 @@
 
 
 
-<title>political psychology</title>
+<title>Schedule</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,6 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -40,6 +42,16 @@
   ul.task-list{list-style: none;}
     </style>
 
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
 
 
 
@@ -129,15 +141,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -247,6 +255,9 @@ $(document).ready(function () {
   <a href="PolPsychF2022Schedule.html">schedule</a>
 </li>
 <li>
+  <a href="PolPsychF2022Readings.html">readings</a>
+</li>
+<li>
   <a href="https://canvas.fau.edu/courses/124971">canvas</a>
 </li>
       </ul>
@@ -261,16 +272,15 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">political psychology</h1>
+<h1 class="title toc-ignore">Schedule</h1>
 
 </div>
 
 
-<p>This site hosts course materials for the Wilkes Honors College (WHC)
-<em>Political Psychology</em> course taught by Professor Kevin Lanning.
-It is a work in progress, and will be continuously revised throughout
-the term.</p>
-<p>- <em>revised August 18, 2022</em></p>
+<p>The class will cover a series of modules, each of which may be
+covered in more than or less than a single class period.</p>
+<iframe width="800" height="600" src="https://docs.google.com/spreadsheets/d/1uh_ODcFj7aG7E_GSF_PbIt4qIjWtPUpe85lOCVmjF4w/edit?usp=sharing">
+</iframe>
 
 
 

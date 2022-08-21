@@ -1,0 +1,276 @@
+---
+title: "Readings"
+output: html_document
+date: "2022-08-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The current set of references is arranged in a series of modules below. Note that modules may extend across several classes. 
+
+There are eleven numbered modules, which we will cover in the first ten weeks of the class.  Following this, we will select topics for the remaining classes from modules A-H. Students will be expected to help lead these meetings, which will also serve as the basis for their term papers. 
+
+All of these papers may be found in the files section in Canvas.
+
+### 1 -- Introduction (2 meetings)
+
+Houghton, Chapters 1 and 2
+
+Alter, A. (2020). A Presidential Historian Makes a Rare Appearance in Today's Political Arena. *New York Times,* August 21.
+
+Cardiff, C. F., & Klein, D. B. (2005). Faculty partisan affiliations in all disciplines: A voter‐registration study. *Critical Review*, *17*(3--4), 237--255. <https://doi.org/10.1080/08913810508443639>
+
+Hounshell, B. (2022, August 2). On Politics: David Axelrod ... New York Times.
+
+Inbar, Y., & Jost, J. T. (2018). The ideology of social psychologists (and why it matters). SPSP, 38, e130.
+
+McGuire, W. J. (2004). *The Poly-Psy Relationship: Three Phases of a Long Affair* (p. 31). Psychology Press. <https://doi.org/10.4324/9780203505984-1>
+
+Woessner, M., & Kelly-Woessner, A. (2009). I Think My Professor is a Democrat: Considering Whether Students Recognize and React to Faculty Politics. *PS: Political Science and Politics*, *42*(2), 343--352.
+
+### 2 -- Social Political Psychology (2 meetings)
+
+Houghton, Chapters 3 - 6
+
+Mayer, J. (2005). A Reporter at Large: The Ex... *New Yorker*, 11.
+
+Mintz, A., & Wayne, C. (2016). The Polythink Syndrome and Elite Group Decision-Making: Polythink Syndrome and Elite Group Decision-Making. *Political Psychology*, *37*, 3--21.<https://doi.org/10.1111/pops.12319>
+
+Resnick, B. (n.d.). *The Stanford Prison Experiment was massively influential. We just learned it was a fraud.* 9.
+
+### 3 -- Authoritarianism, Social Dominance, and System Justification (2 meetings)
+
+Jost, J. T. (2011). System justification theory as compliment, complement, and corrective to theories of social identification and social dominance. Annual Scientific Meeting of the International Society for Political Psychology, 23rd, Seattle, WA, US.
+
+Napier, J. L., & Jost, J. T. (2008). The "Antidemocratic Personality" Revisited: A Cross-National Investigation of Working-Class Authoritarianism. *Journal of Social Issues*, *64*(3), 595--617. <https://doi.org/10.1111/j.1540-4560.2008.00579.x>
+
+Son Hing, L. S., Bobocel, D. R., Zanna, M. P., Garcia, D. M., Gee, S. S., & Orazietti, K. (2011). The merit of meritocracy. *Journal of Personality and Social Psychology*, *101*(3), 433--450. <https://doi.org/10.1037/a0024618>
+
+van der Toorn, J., Feinberg, M., Jost, J. T., Kay, A. C., Tyler, T. R., Willer, R., & Wilmuth, C. (2015). A Sense of Powerlessness Fosters System Justification: Implications for the Legitimation of Authority, Hierarchy, and Government: Powerlessness, System Justification, Legitimacy. *Political Psychology*, *36*(1), 93--110. <https://doi.org/10.1111/pops.12183>
+
+### 4 -- Moral political psychology (3 meetings)
+
+Burnham, B. R. (2020). Are liberals really dirty? Two failures to replicate Helzer and Pizarro’s (2011) study 1, with meta-analysis. Journal of Personality and Social Psychology. https://doi.org/10/gk49ww
+
+Gerber, A., Huber, G., & Fang, A. (2018). Do Subtle Linguistic Interventions Priming a Social Identity as a Voter Have Outsized Effects on Voter Turnout? Evidence From a New Replication Experiment: Outsized Turnout Effects of Subtle Linguistic Cues. *Political Psychology*, *39*(4), 925--938. <https://doi.org/10.1111/pops.12446>
+
+Haidt, J., Graham, J., & Joseph, C. (2009). Above and Below Left--Right: Ideological Narratives and Moral Foundations. *Psychological Inquiry*, *20*(2--3), 110--119. <https://doi.org/10.1080/10478400903028573>
+
+Helzer, E. G., & Pizarro, D. A. (2011). Dirty Liberals!: Reminders of Physical Cleanliness Influence Moral and Political Attitudes. *Psychological Science*, *22*(4), 517--522. <https://doi.org/10.1177/0956797611402514>
+
+Lakoff, G. (1995). Metaphor, Morality, and Politics, Or, Why Conservatives Have Left Liberals in the Dust. *Social Research*, *62*(2), 177--214.
+
+McAdams, D. P., Albaugh, M., Farber, E., Daniels, J., Logan, R. L., & Olson, B. (2008). Family metaphors and moral intuitions: How conservatives and liberals narrate their lives. *Journal of Personality and Social Psychology*, *95*(4), 978--990. <https://doi.org/10.1037/a0012650>
+
+Moses, J. F., & Gonzales, M. H. (2015). Strong Candidate, Nurturant Candidate: Moral Language in Presidential Television Advertisements. *Political Psychology*, *36*(4), 379--397. <https://doi.org/10.1111/pops.12160>
+
+Xu, X., Karinen, A. K., Chapman, H. A., Peterson, J. B., & Plaks, J. E. (2020). An orderly personality partially explains the link between trait disgust and political conservatism. Cognition and Emotion, 34(2), 302–315. https://doi.org/10.1080/02699931.2019.1627292
+
+### 5 -- Emotions in Politics (2 meetings)
+
+Choma, B. L., Busseri, M. A., & Sadava, S. W. (2009). Liberal and conservative political ideologies: Different routes to happiness? *Journal of Research in Personality*, *43*(3), 502--505. <https://doi.org/10.1016/j.jrp.2008.12.016>
+
+Cohen, F., Ogilvie, D. M., Solomon, S., Greenberg, J., & Pyszczynski, T. (2005). American Roulette: The Effect of Reminders of Death on Support for George W. Bush in the 2004 Presidential Election. *Analyses of Social Issues and Public Policy*, *5*(1), 177--187. <https://doi.org/10.1111/j.1530-2415.2005.00063.x>
+
+Gaffney, A. M., Hackett, J. D., Rast, D. E., Hohman, Z. P., & Jaurique, A. (2018). The State of American Protest: Shared Anger and Populism. *Analyses of Social Issues and Public Policy*, *18*(1), 11--33. <https://doi.org/10.1111/asap.12145>
+
+Hatemi, P. K., McDermott, R., Eaves, L. J., Kendler, K. S., & Neale, M. C. (2013). Fear as a Disposition and an Emotional State: A Genetic and Environmental Approach to Out-Group Political Preferences. *American Journal of Political Science*, *57*(2), 279--293. <https://doi.org/10.1111/ajps.12016>
+
+Suhay, E., & Erisen, C. (2018). The Role of Anger in the Biased Assimilation of Political Information. *Political Psychology*, *39*(4), 793--810. <https://doi.org/10.1111/pops.12463>
+
+Stuckey. (2017). American Elections and the Rhetoric of Political Change: Hyperbole, Anger, and Hope in U.S. Politics. *Rhetoric and Public Affairs*, *20*(4), 667. <https://doi.org/10.14321/rhetpublaffa.20.4.0667>
+
+### 6 -- Personality and politics (1 meeting)
+
+Carney, D. R., Jost, J. T., Gosling, S. D., & Potter, J. (2008). The Secret Lives of Liberals and Conservatives: Personality Profiles, Interaction Styles, and the Things They Leave Behind: Liberals and Conservatives. *Political Psychology*, *29*(6), 807--840. <https://doi.org/10.1111/j.1467-9221.2008.00668.x>
+
+Choma, B. L., & Hanoch, Y. (2017). Cognitive ability and authoritarianism: Understanding support for Trump and Clinton. *Personality and Individual Differences*, *106*, 287--291. <https://doi.org/10.1016/j.paid.2016.10.054>
+
+Greene, S., & Robertson, G. (2017). Agreeable Authoritarians: Personality and Politics in Contemporary Russia. Comparative Political Studies, 50(13), 1802–1834. https://doi.org/10.1177/0010414016688005
+
+Hirsh, J. B., DeYoung, C. G., Xiaowen Xu, & Peterson, J. B. (2010). Compassionate Liberals and Polite Conservatives: Associations of Agreeableness With Political Ideology and Moral Values. *Personality and Social Psychology Bulletin*, *36*(5), 655--664. <https://doi.org/10.1177/0146167210366854>
+
+### 7 -- Psychobiography and the Presidency (3 meetings)
+
+Goethals, G. R. (2005). Presidential Leadership. *Annual Review of Psychology*, *56*(1), 545--570. <https://doi.org/10.1146/annurev.psych.55.090902.141918>
+
+Kreitner, R. (2016). On Skowronek. *The Nation*.
+
+McAdams, D. P. (2022). The comforter-in-chief: How two traumatic experiences shaped president joe Biden’s first 100 days. Journal of Personality. https://doi.org/10.1111/jopy.12738
+
+Rubenzer, S. (2000). *Assessing the U.S. Presidents Using the Revised NEO Personality Inventory*. <https://journals.sagepub.com/doi/10.1177/107319110000700408>
+
+Simonton, D. K. (1988). Presidential style: Personality, biography, and performance. *Journal of Personality and Social Psychology*, *55*(6), 928--936. <https://doi.org/10.1037/0022-3514.55.6.928>
+
+Winter, D. G. (2005). Things I've Learned About Personality From Studying Political Leaders at a Distance. *Journal of Personality*, *73*(3), 557--584. <https://doi.org/10.1111/j.1467-6494.2005.00321.x>
+
+### 8 -- Psychopathology and leadership (1 meeting)
+
+Hofstadter, R. (1964, November 1). *The Paranoid Style in American Politics*. Harper's Magazine. <https://harpers.org/archive/1964/11/the-paranoid-style-in-american-politics/>
+
+Lilienfeld, S. O., Waldman, I. D., Landfield, K., Watts, A. L., Rubenzer, S., & Faschingbauer, T. R. (2012). Fearless dominance and the U.S. presidency: Implications of psychopathic personality traits for successful and unsuccessful political leadership. *Journal of Personality and Social Psychology*, *103*(3), 489--505. <https://doi.org/10.1037/a0029392>
+
+Lilienfeld, S. O., Watts, A. L., & Smith, S. F. (2015). Successful Psychopathy: A Scientific Status Report. *Current Directions in Psychological Science*, *24*(4), 298--303. <https://doi.org/10.1177/0963721415580297>
+
+McAdams, Dan. (2016) "The Mind of Donald Trump." The Atlantic.
+
+Post, J. M. (1993). Current Concepts of the Narcissistic Personality: Implications for Political Psychology. *Political Psychology*, *14*(1), 99. <https://doi.org/10.2307/3791395>
+
+### 9 -- Developmental psychology and politics (2 meetings)
+
+Abendschön, S., & Tausendpfund, M. (2017). Political Knowledge of Children and the Role of Sociostructural Factors. American Behavioral Scientist, 61(2), 204–221. https://doi.org/10.1177/0002764216689122
+
+Block, J., & Block, J. H. (2006). Nursery school personality and political orientation two decades later. *Journal of Research in Personality*, *40*(5), 734--749. <https://doi.org/10.1016/j.jrp.2005.09.005>
+
+Deary, I. J., Batty, G. D., & Gale, C. R. (2008). Bright Children Become Enlightened Adults. *Psychological Science*, *19*(1), 1--6. <https://doi.org/10.1111/j.1467-9280.2008.02036.x>
+
+Fraley, R. C., Griffin, B. N., Belsky, J., & Roisman, G. I. (2012). Developmental Antecedents of Political Ideology: A Longitudinal Investigation From Birth to Age 18 Years. *Psychological Science*, *23*(11), 1425--1431. <https://doi.org/10.1177/0956797612440102>
+
+Smith, K. B., Oxley, D. R., Hibbing, M. V., Alford, J. R., & Hibbing, J. R. (2011). Linking Genetics and Political Attitudes: Reconceptualizing Political Ideology *Political Psychology*, *32*(3), 369--397. <https://doi.org/10.1111/j.1467-9221.2010.00821.x>
+
+### 10 -- Cognitive Political Psychology (2 meetings)
+
+Houghton, Chapter 9
+
+Ehrlinger, J., Plant, E. A., Eibach, R. P., Columb, C. J., Goplen, J. L., Kunstman, J. W., & Butz, D. A. (2011). How Exposure to the Confederate Flag Affects Willingness to Vote for Barack Obama. *Political Psychology*, *32*(1), 131--146. <https://doi.org/10.1111/j.1467-9221.2010.00797.x>
+
+Jervis, R. (1993). The drunkard's search. In *Explorations in political psychology* (pp. 338--360). Duke University Press.
+
+Lin, C., Adolphs, R., & Alvarez, R. M. (2018). Inferring Whether Officials Are Corruptible From Looking at Their Faces. *Psychological Science*, *29*(11), 1807--1823. <https://doi.org/10.1177/0956797618788882>
+
+Taber, C. S., & Lodge, M. (2016). The Illusion of Choice in Democratic Politics: The Unconscious Impact of Motivated Political Reasoning: Illusion of Choice in Democratic Politics. *Political Psychology*, *37*, 61--85. <https://doi.org/10.1111/pops.12321>
+
+Todorov, A. (2005). Inferences of Competence from Faces Predict Election Outcomes. *Science*, *308*(5728), 1623--1626. <https://doi.org/10.1126/science.1110589>
+
+### 11 -- Identity and Politics: Tribalism (1 meeting)
+
+Clark, C. J., Liu, B. S., Winegard, B. M., & Ditto, P. H. (2019). Tribalism is human nature. Current Directions in Psychological Science, 28(6), 587–592.
+
+McFarland, S., Webb, M., & Brown, D. (2012). All humanity is my ingroup: A measure and studies of identification with all humanity. *Journal of Personality and Social Psychology*, *103*(5), 830--853. <https://doi.org/10.1037/a0028724>
+
+Mendenhall. (2018). Tribalism By Any Other Name-review of Chua. https://allenmendenhall.com/wp-content/uploads/Tribalism-2.pdf
+
+### (Last class) Can the system change? (1 meeting)
+
+Grinspan, J. (2015). *To Stop an Endless Cycle of Corruption, History Says Fix the System, Not the Politician*. 4.
+
+Lewandowsky, S., & Van Der Linden, S. (2021). Countering misinformation and fake news through inoculation and prebunking. European Review of Social Psychology, 32(2), 348–384. https://doi.org/10/gh4sd8
+
+McCarthy, D., & Santucci, J. (2021). Ranked Choice Voting as a Generational Issue in Modern American Politics. Politics & Policy, 49(1), 33–60. https://doi.org/10.1111/polp.12390
+
+Wang, S. S.-H., Cervas, J., Grofman, B., & Lipsitz, K. (2021). A systems framework for remedying dysfunction in US democracy. Proceedings of the National Academy of Sciences, 118(50), e2102154118. https://doi.org/10.1073/pnas.2102154118
+
+## Additional topics and sample readings
+
+### A -- Political Neuroscience (0-1 class, TBD)
+
+Houghton, Chapter 11
+
+Hibbing, J. R., Smith, K. B., & Alford, J. R. (2014). Differences in negativity bias underlie variations in political ideology. *Behavioral and Brain Sciences*, *37*(3), 297--307. <https://doi.org/10.1017/S0140525X13001192>
+
+Jost, J. T., Nam, H. H., Amodio, D. M., & Van Bavel, J. J. (2014). Political Neuroscience: The Beginning of a Beautiful Friendship: Political Neuroscience. *Political Psychology*, *35*, 3--42. <https://doi.org/10.1111/pops.12162>
+
+### B -- Identity and Politics: Class, race, religion, and gender (0-2 classes, TBD)
+
+Houghton, Chapter 15
+
+Anonymous (2018) "Israel's Jewish Nationalist Identity Is Outweighing Its Democratic One." The Economist.
+
+Cassino, D. (2016). *Even the Thought of Earning Less than Their Wives Changes How Men Behave*. 4.
+
+Bartels, L. M. (2020). Ethnic antagonism erodes Republicans’ commitment to democracy. Proceedings of the National Academy of Sciences, 117(37), 22752–22759. https://doi.org/10.1073/pnas.2007747117
+
+Enders, A. M., & Scott, J. S. (2019). The Increasing Racialization of American Electoral Politics, 1988-2016. American Politics Research, 47(2), 275–303. https://doi.org/10.1177/1532673X18755654
+
+Hochschild, A. R. (2018). *Special report: I spent 5 years with some of Trump's biggest fans. Here's what they won't tell you.* 16.
+
+Nohria, N. (2017). *The Lines That Divide America*. <https://www.hbs.edu/faculty/Pages/item.aspx?num=54608>
+
+Paluck, E. L., Green, S. A., & Green, D. P. (2019). The contact hypothesis re-evaluated. *Behavioural Public Policy*, *3*(02), 129--158. <https://doi.org/10.1017/bpp.2018.25>
+
+Tesler, M. (2013). The Return of Old-Fashioned Racism to White Americans' Partisan Preferences in the Early Obama Era. *The Journal of Politics*, *75*(1), 110--123. <https://doi.org/10.1017/S0022381612000904>
+
+### C -- Identity and Politics: Partisanship (0-2 classes, TBD)
+
+Barber, Michael, and Jeremy C. Pope. "Does Party Trump Ideology? Disentangling Party and Ideology in America." American Political Science Review 113, no. 1 (February 2019): 38--54. <https://doi.org/10.1017/S0003055418000795>.
+
+Finkel, E. J., Bail, C. A., Cikara, M., Ditto, P. H., Iyengar, S., Klar, S., Mason, L., McGrath, M. C., Nyhan, B., & Rand, D. G. (2020). Political sectarianism in America. Science, 370(6516), 533–536.
+
+Hawkins, C. B., & Nosek, B. A. (2012). Motivated Independence? Implicit Party Identity Predicts Political Judgments Among Self-Proclaimed Independents. *Personality and Social Psychology Bulletin*, *38*(11), 1437--1452. <https://doi.org/10.1177/0146167212452313>
+
+Huddy, L., Mason, L., & Aarøe, L. (2015). Expressive Partisanship: Campaign Involvement, Political Emotion, and Partisan Identity. *American Political Science Review*, *109*(1), 1--17. <https://doi.org/10.1017/S0003055414000604>
+
+Iyengar, S., & Westwood, S. J. (2015). Fear and Loathing across Party Lines: New Evidence on Group Polarization. American Journal of Political Science, 59(3), 690–707. https://doi.org/10/f7jhfs
+
+Iyengar, S., & Krupenkin, M. (2018). The Strengthening of Partisan Affect: Strengthening of Partisan Affect. *Political Psychology*, *39*, 201--218. <https://doi.org/10.1111/pops.12487>
+
+### D -- Identity and Politics: Geography  (0-1 class, TBD)
+
+Elleman, L. G., Condon, D. M., Russin, S. E., & Revelle, W. (2018). The personality of U.S. states: Stability from 1999 to 2015. *Journal of Research in Personality*, *72*, 64--72. <https://doi.org/10.1016/j.jrp.2016.06.022>
+
+Feinberg, M., Tullett, A. M., Mensch, Z., Hart, W., & Gottlieb, S. (2017). The political reference point: How geography shapes political identity. *PLOS ONE*, *12*(2), e0171497. <https://doi.org/10.1371/journal.pone.0171497>
+
+Lanning, K., Warfel, E. A., Wetherell, G., Perez, M., Boyd, R., & Condon, D. M. (2022). The Personality of American Nations: An Exploratory Study. Personality Science, 3, 1–36. https://doi.org/10.5964/ps.7811
+
+### E -- The (a)symmetry of left and right (0-2 meetings, TBD)
+
+Baron, J., & Jost, J. T. (2019). False Equivalence: Are Liberals and Conservatives in the United States Equally Biased? *Perspectives on Psychological Science*, *14*(2), 292--303. <https://doi.org/10.1177/1745691618788876>
+
+Brandt, M. J., Reyna, C., Chambers, J. R., Crawford, J. T., & Wetherell, G. (2014). The Ideological-Conflict Hypothesis: Intolerance Among Both Liberals and Conservatives. *Current Directions in Psychological Science*, *23*(1), 27--34. <https://doi.org/10.1177/0963721413510932>
+
+Ditto, P. H., Liu, B. S., Clark, C. J., Wojcik, S. P., Chen, E. E., Grady, R. H., Celniker, J. B., & Zinger, J. F. (2018). *At Least Bias Is Bipartisan: A Meta-Analytic Comparison of Partisan Bias in Liberals and Conservatives*. 19.
+
+Duarte, J. L., Crawford, J. T., Stern, C., Haidt, J., Jussim, L., & Tetlock, P. E. (2015). Political diversity will improve social psychological science. *Behavioral and Brain Sciences*, *38*, e130. <https://doi.org/10.1017/S0140525X14000430>
+
+Jost, J. T. (2017). Ideological Asymmetries and the Essence of Political Psychology: Presidential Address. *Political Psychology*, *38*(2), 167--208. <https://doi.org/10.1111/pops.12407>
+
+van der Linden, S., Panagopoulos, C., Azevedo, F., & Jost, J. T. (2021). The Paranoid Style in American Politics Revisited: An Ideological Asymmetry in Conspiratorial Thinking. Political Psychology, 42(1), 23–51. https://doi.org/10.1111/pops.12681
+
+### F -- Media Effects in Politics (0-2 meetings, TBD)
+
+Houghton, Chapter 13
+
+Baumgartner, J. C., J. S. Morris, and N. L. Walth. "The Fey Effect: Young Adults, Political Humor, and Perceptions of Sarah Palin in the 2008 Presidential Election Campaign." Public Opinion Quarterly 76, no. 1 (March 1, 2012): 95--104. <https://doi.org/10/gfzx3n>.
+
+Baumgartner, Jody C, and Brad Lockerbie. "Maybe It Is More Than a Joke: Satire, Mobilization, and Political Participation\*: Satire, Mobilization, and Political Participation." Social Science Quarterly 99, no. 3 (September 2018): 1060--74. <https://doi.org/10.1111/ssqu.12501>.
+
+Bond, Robert M., Christopher J. Fariss, Jason J. Jones, Adam D. I. Kramer, Cameron Marlow, Jaime E. Settle, and James H. Fowler. "A 61-Million-Person Experiment in Social Influence and Political Mobilization." Nature 489, no. 7415 (September 2012): 295--98. <https://doi.org/10/f3689v>.
+
+Guess, A. M. (2021). (Almost) Everything in Moderation: New Evidence on Americans’ Online Media Diets. American Journal of Political Science, 65(4), 1007–1022. https://doi.org/10.1111/ajps.12589
+
+Hoffman, Lindsay H., and Dannagal G. Young. "Satire, Punch Lines, and the Nightly News: Untangling Media Effects on Political Participation." Communication Research Reports 28, no. 2 (April 27, 2011): 159--68. <https://doi.org/10/c3m5w5>.
+
+Iyengar, Shanto, Mark D Peters, and Donald R Kinder. "Experimental Demonstrations of the Not-So- Minimal Consequences of Television News Programs," 1982, 17.
+
+Muise, D., Hosseinmardi, H., Howland, B., Mobius, M., Rothschild, D., & Watts, D. J. (2022). Quantifying partisan news diets in Web and TV audiences. Science Advances, 8(28), eabn0083. https://doi.org/10.1126/sciadv.abn0083
+
+Slater, M. D. (2007). Reinforcing Spirals: The Mutual Influence of Media Selectivity and Media Effects and Their Impact on Individual Behavior and Social Identity. *Communication Theory*, *17*(3), 281--303. <https://doi.org/10.1111/j.1468-2885.2007.00296.x>
+
+Stroud, N. J. (2010). Polarization and Partisan Selective Exposure. *Journal of Communication*, *60*(3), 556--576. <https://doi.org/10.1111/j.1460-2466.2010.01497.x>
+
+### G -- The Psychology of Political Campaigns (0-2 meetings, TBD)
+
+Druckman, J. N. (2022). A Framework for the Study of Persuasion. Annual Review of Political Science, 25(1), 65–88. https://doi.org/10.1146/annurev-polisci-051120-110428
+
+Gotlieb, M. R., Scholl, R. M., Ridout, T. N., Goldstein, K. M., & Shah, D. V. (2015). Cumulative and Long-Term Campaign Advertising Effects on Trust and Talk. *International Journal of Public Opinion Research*, edv047. <https://doi.org/10.1093/ijpor/edv047>
+
+Iyengar, S., & Simon, A. F. (2000). New Perspectives and Evidence on Political Communication and Campaign Effects. *Annual Review of Psychology*, *51*(1), 149--169. <https://doi.org/10.1146/annurev.psych.51.1.149>
+
+Lau, R. R., Sigelman, L., & Rovner, I. B. (2007). The Effects of Negative Political Campaigns: A Meta-Analytic Reassessment. *The Journal of Politics*, *69*(4), 1176--1209. <https://doi.org/10.1111/j.1468-2508.2007.00618.x>
+
+Stevens, D., Sullivan, J., Allen, B., & Alger, D. (2008). What's Good for the Goose is Bad for the Gander: Negative Political Advertising, Partisanship, and Turnout. *The Journal of Politics*, *70*(2), 527--541. <https://doi.org/10/cw25wj>
+
+### H - Truth, Trust, and Fake News (0-2 meetings, TBD)
+
+Flynn, D. J., Nyhan, B., & Reifler, J. (2017). The Nature and Origins of Misperceptions: Understanding False and Unsupported Beliefs About Politics. *Political Psychology*, *38*, 127--150. <https://doi.org/10.1111/pops.12394>
+
+Pennycook, G., & Rand, D. G. (2021). The psychology of fake news. Trends in Cognitive Sciences, 25(5), 388–402.
+
+Sullivan, J. L., & Transue, J. E. (1999). THE PSYCHOLOGICAL UNDERPINNINGS OF DEMOCRACY: A Selective Review of Research on Political Tolerance, Interpersonal Trust, and Social Capital. *Annual Review of Psychology*, *50*(1), 625--650. <https://doi.org/10/cmthvk>
+
+Wood, T., & Porter, E. (2019). The Elusive Backfire Effect: Mass Attitudes' Steadfast Factual Adherence. *Political Behavior*, *41*(1), 135--163. <https://doi.org/10.1007/s11109-018-9443-y>
+
+
+------------------------------------------------------------------------

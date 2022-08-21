@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+<meta name="date" content="2022-08-20" />
+
+<title>Readings</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">honors political psychology</a>
+</li>
+<li>
+  <a href="PolPsychF2022Syllabus.html">syllabus</a>
+</li>
+<li>
+  <a href="PolPsychF2022Schedule.html">schedule</a>
+</li>
+<li>
+  <a href="PolPsychF2022Readings.html">readings</a>
+</li>
+<li>
+  <a href="https://canvas.fau.edu/courses/124971">canvas</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Readings</h1>
+<h4 class="date">2022-08-20</h4>
+
+</div>
+
+
+<p>The current set of references is arranged in a series of modules
+below. Note that modules may extend across several classes.</p>
+<p>There are eleven numbered modules, which we will cover in the first
+ten weeks of the class. Following this, we will select topics for the
+remaining classes from modules A-H. Students will be expected to help
+lead these meetings, which will also serve as the basis for their term
+papers.</p>
+<p>All of these papers may be found in the files section in Canvas.</p>
+<div id="introduction-2-meetings" class="section level3">
+<h3>1 – Introduction (2 meetings)</h3>
+<p>Houghton, Chapters 1 and 2</p>
+<p>Alter, A. (2020). A Presidential Historian Makes a Rare Appearance in
+Today’s Political Arena. <em>New York Times,</em> August 21.</p>
+<p>Cardiff, C. F., &amp; Klein, D. B. (2005). Faculty partisan
+affiliations in all disciplines: A voter‐registration study.
+<em>Critical Review</em>, <em>17</em>(3–4), 237–255. <a
+href="https://doi.org/10.1080/08913810508443639"
+class="uri">https://doi.org/10.1080/08913810508443639</a></p>
+<p>Hounshell, B. (2022, August 2). On Politics: David Axelrod … New York
+Times.</p>
+<p>Inbar, Y., &amp; Jost, J. T. (2018). The ideology of social
+psychologists (and why it matters). SPSP, 38, e130.</p>
+<p>McGuire, W. J. (2004). <em>The Poly-Psy Relationship: Three Phases of
+a Long Affair</em> (p. 31). Psychology Press. <a
+href="https://doi.org/10.4324/9780203505984-1"
+class="uri">https://doi.org/10.4324/9780203505984-1</a></p>
+<p>Woessner, M., &amp; Kelly-Woessner, A. (2009). I Think My Professor
+is a Democrat: Considering Whether Students Recognize and React to
+Faculty Politics. <em>PS: Political Science and Politics</em>,
+<em>42</em>(2), 343–352.</p>
+</div>
+<div id="social-political-psychology-2-meetings" class="section level3">
+<h3>2 – Social Political Psychology (2 meetings)</h3>
+<p>Houghton, Chapters 3 - 6</p>
+<p>Mayer, J. (2005). A Reporter at Large: The Ex… <em>New Yorker</em>,
+11.</p>
+<p>Mintz, A., &amp; Wayne, C. (2016). The Polythink Syndrome and Elite
+Group Decision-Making: Polythink Syndrome and Elite Group
+Decision-Making. <em>Political Psychology</em>, <em>37</em>, 3–21.<a
+href="https://doi.org/10.1111/pops.12319"
+class="uri">https://doi.org/10.1111/pops.12319</a></p>
+<p>Resnick, B. (n.d.). <em>The Stanford Prison Experiment was massively
+influential. We just learned it was a fraud.</em> 9.</p>
+</div>
+<div
+id="authoritarianism-social-dominance-and-system-justification-2-meetings"
+class="section level3">
+<h3>3 – Authoritarianism, Social Dominance, and System Justification (2
+meetings)</h3>
+<p>Jost, J. T. (2011). System justification theory as compliment,
+complement, and corrective to theories of social identification and
+social dominance. Annual Scientific Meeting of the International Society
+for Political Psychology, 23rd, Seattle, WA, US.</p>
+<p>Napier, J. L., &amp; Jost, J. T. (2008). The “Antidemocratic
+Personality” Revisited: A Cross-National Investigation of Working-Class
+Authoritarianism. <em>Journal of Social Issues</em>, <em>64</em>(3),
+595–617. <a href="https://doi.org/10.1111/j.1540-4560.2008.00579.x"
+class="uri">https://doi.org/10.1111/j.1540-4560.2008.00579.x</a></p>
+<p>Son Hing, L. S., Bobocel, D. R., Zanna, M. P., Garcia, D. M., Gee, S.
+S., &amp; Orazietti, K. (2011). The merit of meritocracy. <em>Journal of
+Personality and Social Psychology</em>, <em>101</em>(3), 433–450. <a
+href="https://doi.org/10.1037/a0024618"
+class="uri">https://doi.org/10.1037/a0024618</a></p>
+<p>van der Toorn, J., Feinberg, M., Jost, J. T., Kay, A. C., Tyler, T.
+R., Willer, R., &amp; Wilmuth, C. (2015). A Sense of Powerlessness
+Fosters System Justification: Implications for the Legitimation of
+Authority, Hierarchy, and Government: Powerlessness, System
+Justification, Legitimacy. <em>Political Psychology</em>,
+<em>36</em>(1), 93–110. <a href="https://doi.org/10.1111/pops.12183"
+class="uri">https://doi.org/10.1111/pops.12183</a></p>
+</div>
+<div id="moral-political-psychology-3-meetings" class="section level3">
+<h3>4 – Moral political psychology (3 meetings)</h3>
+<p>Burnham, B. R. (2020). Are liberals really dirty? Two failures to
+replicate Helzer and Pizarro’s (2011) study 1, with meta-analysis.
+Journal of Personality and Social Psychology. <a
+href="https://doi.org/10/gk49ww"
+class="uri">https://doi.org/10/gk49ww</a></p>
+<p>Gerber, A., Huber, G., &amp; Fang, A. (2018). Do Subtle Linguistic
+Interventions Priming a Social Identity as a Voter Have Outsized Effects
+on Voter Turnout? Evidence From a New Replication Experiment: Outsized
+Turnout Effects of Subtle Linguistic Cues. <em>Political
+Psychology</em>, <em>39</em>(4), 925–938. <a
+href="https://doi.org/10.1111/pops.12446"
+class="uri">https://doi.org/10.1111/pops.12446</a></p>
+<p>Haidt, J., Graham, J., &amp; Joseph, C. (2009). Above and Below
+Left–Right: Ideological Narratives and Moral Foundations.
+<em>Psychological Inquiry</em>, <em>20</em>(2–3), 110–119. <a
+href="https://doi.org/10.1080/10478400903028573"
+class="uri">https://doi.org/10.1080/10478400903028573</a></p>
+<p>Helzer, E. G., &amp; Pizarro, D. A. (2011). Dirty Liberals!:
+Reminders of Physical Cleanliness Influence Moral and Political
+Attitudes. <em>Psychological Science</em>, <em>22</em>(4), 517–522. <a
+href="https://doi.org/10.1177/0956797611402514"
+class="uri">https://doi.org/10.1177/0956797611402514</a></p>
+<p>Lakoff, G. (1995). Metaphor, Morality, and Politics, Or, Why
+Conservatives Have Left Liberals in the Dust. <em>Social Research</em>,
+<em>62</em>(2), 177–214.</p>
+<p>McAdams, D. P., Albaugh, M., Farber, E., Daniels, J., Logan, R. L.,
+&amp; Olson, B. (2008). Family metaphors and moral intuitions: How
+conservatives and liberals narrate their lives. <em>Journal of
+Personality and Social Psychology</em>, <em>95</em>(4), 978–990. <a
+href="https://doi.org/10.1037/a0012650"
+class="uri">https://doi.org/10.1037/a0012650</a></p>
+<p>Moses, J. F., &amp; Gonzales, M. H. (2015). Strong Candidate,
+Nurturant Candidate: Moral Language in Presidential Television
+Advertisements. <em>Political Psychology</em>, <em>36</em>(4), 379–397.
+<a href="https://doi.org/10.1111/pops.12160"
+class="uri">https://doi.org/10.1111/pops.12160</a></p>
+<p>Xu, X., Karinen, A. K., Chapman, H. A., Peterson, J. B., &amp; Plaks,
+J. E. (2020). An orderly personality partially explains the link between
+trait disgust and political conservatism. Cognition and Emotion, 34(2),
+302–315. <a href="https://doi.org/10.1080/02699931.2019.1627292"
+class="uri">https://doi.org/10.1080/02699931.2019.1627292</a></p>
+</div>
+<div id="emotions-in-politics-2-meetings" class="section level3">
+<h3>5 – Emotions in Politics (2 meetings)</h3>
+<p>Choma, B. L., Busseri, M. A., &amp; Sadava, S. W. (2009). Liberal and
+conservative political ideologies: Different routes to happiness?
+<em>Journal of Research in Personality</em>, <em>43</em>(3), 502–505. <a
+href="https://doi.org/10.1016/j.jrp.2008.12.016"
+class="uri">https://doi.org/10.1016/j.jrp.2008.12.016</a></p>
+<p>Cohen, F., Ogilvie, D. M., Solomon, S., Greenberg, J., &amp;
+Pyszczynski, T. (2005). American Roulette: The Effect of Reminders of
+Death on Support for George W. Bush in the 2004 Presidential Election.
+<em>Analyses of Social Issues and Public Policy</em>, <em>5</em>(1),
+177–187. <a href="https://doi.org/10.1111/j.1530-2415.2005.00063.x"
+class="uri">https://doi.org/10.1111/j.1530-2415.2005.00063.x</a></p>
+<p>Gaffney, A. M., Hackett, J. D., Rast, D. E., Hohman, Z. P., &amp;
+Jaurique, A. (2018). The State of American Protest: Shared Anger and
+Populism. <em>Analyses of Social Issues and Public Policy</em>,
+<em>18</em>(1), 11–33. <a href="https://doi.org/10.1111/asap.12145"
+class="uri">https://doi.org/10.1111/asap.12145</a></p>
+<p>Hatemi, P. K., McDermott, R., Eaves, L. J., Kendler, K. S., &amp;
+Neale, M. C. (2013). Fear as a Disposition and an Emotional State: A
+Genetic and Environmental Approach to Out-Group Political Preferences.
+<em>American Journal of Political Science</em>, <em>57</em>(2), 279–293.
+<a href="https://doi.org/10.1111/ajps.12016"
+class="uri">https://doi.org/10.1111/ajps.12016</a></p>
+<p>Suhay, E., &amp; Erisen, C. (2018). The Role of Anger in the Biased
+Assimilation of Political Information. <em>Political Psychology</em>,
+<em>39</em>(4), 793–810. <a href="https://doi.org/10.1111/pops.12463"
+class="uri">https://doi.org/10.1111/pops.12463</a></p>
+<p>Stuckey. (2017). American Elections and the Rhetoric of Political
+Change: Hyperbole, Anger, and Hope in U.S. Politics. <em>Rhetoric and
+Public Affairs</em>, <em>20</em>(4), 667. <a
+href="https://doi.org/10.14321/rhetpublaffa.20.4.0667"
+class="uri">https://doi.org/10.14321/rhetpublaffa.20.4.0667</a></p>
+</div>
+<div id="personality-and-politics-1-meeting" class="section level3">
+<h3>6 – Personality and politics (1 meeting)</h3>
+<p>Carney, D. R., Jost, J. T., Gosling, S. D., &amp; Potter, J. (2008).
+The Secret Lives of Liberals and Conservatives: Personality Profiles,
+Interaction Styles, and the Things They Leave Behind: Liberals and
+Conservatives. <em>Political Psychology</em>, <em>29</em>(6), 807–840.
+<a href="https://doi.org/10.1111/j.1467-9221.2008.00668.x"
+class="uri">https://doi.org/10.1111/j.1467-9221.2008.00668.x</a></p>
+<p>Choma, B. L., &amp; Hanoch, Y. (2017). Cognitive ability and
+authoritarianism: Understanding support for Trump and Clinton.
+<em>Personality and Individual Differences</em>, <em>106</em>, 287–291.
+<a href="https://doi.org/10.1016/j.paid.2016.10.054"
+class="uri">https://doi.org/10.1016/j.paid.2016.10.054</a></p>
+<p>Greene, S., &amp; Robertson, G. (2017). Agreeable Authoritarians:
+Personality and Politics in Contemporary Russia. Comparative Political
+Studies, 50(13), 1802–1834. <a
+href="https://doi.org/10.1177/0010414016688005"
+class="uri">https://doi.org/10.1177/0010414016688005</a></p>
+<p>Hirsh, J. B., DeYoung, C. G., Xiaowen Xu, &amp; Peterson, J. B.
+(2010). Compassionate Liberals and Polite Conservatives: Associations of
+Agreeableness With Political Ideology and Moral Values. <em>Personality
+and Social Psychology Bulletin</em>, <em>36</em>(5), 655–664. <a
+href="https://doi.org/10.1177/0146167210366854"
+class="uri">https://doi.org/10.1177/0146167210366854</a></p>
+</div>
+<div id="psychobiography-and-the-presidency-3-meetings"
+class="section level3">
+<h3>7 – Psychobiography and the Presidency (3 meetings)</h3>
+<p>Goethals, G. R. (2005). Presidential Leadership. <em>Annual Review of
+Psychology</em>, <em>56</em>(1), 545–570. <a
+href="https://doi.org/10.1146/annurev.psych.55.090902.141918"
+class="uri">https://doi.org/10.1146/annurev.psych.55.090902.141918</a></p>
+<p>Kreitner, R. (2016). On Skowronek. <em>The Nation</em>.</p>
+<p>McAdams, D. P. (2022). The comforter-in-chief: How two traumatic
+experiences shaped president joe Biden’s first 100 days. Journal of
+Personality. <a href="https://doi.org/10.1111/jopy.12738"
+class="uri">https://doi.org/10.1111/jopy.12738</a></p>
+<p>Rubenzer, S. (2000). <em>Assessing the U.S. Presidents Using the
+Revised NEO Personality Inventory</em>. <a
+href="https://journals.sagepub.com/doi/10.1177/107319110000700408"
+class="uri">https://journals.sagepub.com/doi/10.1177/107319110000700408</a></p>
+<p>Simonton, D. K. (1988). Presidential style: Personality, biography,
+and performance. <em>Journal of Personality and Social Psychology</em>,
+<em>55</em>(6), 928–936. <a
+href="https://doi.org/10.1037/0022-3514.55.6.928"
+class="uri">https://doi.org/10.1037/0022-3514.55.6.928</a></p>
+<p>Winter, D. G. (2005). Things I’ve Learned About Personality From
+Studying Political Leaders at a Distance. <em>Journal of
+Personality</em>, <em>73</em>(3), 557–584. <a
+href="https://doi.org/10.1111/j.1467-6494.2005.00321.x"
+class="uri">https://doi.org/10.1111/j.1467-6494.2005.00321.x</a></p>
+</div>
+<div id="psychopathology-and-leadership-1-meeting"
+class="section level3">
+<h3>8 – Psychopathology and leadership (1 meeting)</h3>
+<p>Hofstadter, R. (1964, November 1). <em>The Paranoid Style in American
+Politics</em>. Harper’s Magazine. <a
+href="https://harpers.org/archive/1964/11/the-paranoid-style-in-american-politics/"
+class="uri">https://harpers.org/archive/1964/11/the-paranoid-style-in-american-politics/</a></p>
+<p>Lilienfeld, S. O., Waldman, I. D., Landfield, K., Watts, A. L.,
+Rubenzer, S., &amp; Faschingbauer, T. R. (2012). Fearless dominance and
+the U.S. presidency: Implications of psychopathic personality traits for
+successful and unsuccessful political leadership. <em>Journal of
+Personality and Social Psychology</em>, <em>103</em>(3), 489–505. <a
+href="https://doi.org/10.1037/a0029392"
+class="uri">https://doi.org/10.1037/a0029392</a></p>
+<p>Lilienfeld, S. O., Watts, A. L., &amp; Smith, S. F. (2015).
+Successful Psychopathy: A Scientific Status Report. <em>Current
+Directions in Psychological Science</em>, <em>24</em>(4), 298–303. <a
+href="https://doi.org/10.1177/0963721415580297"
+class="uri">https://doi.org/10.1177/0963721415580297</a></p>
+<p>McAdams, Dan. (2016) “The Mind of Donald Trump.” The Atlantic.</p>
+<p>Post, J. M. (1993). Current Concepts of the Narcissistic Personality:
+Implications for Political Psychology. <em>Political Psychology</em>,
+<em>14</em>(1), 99. <a href="https://doi.org/10.2307/3791395"
+class="uri">https://doi.org/10.2307/3791395</a></p>
+</div>
+<div id="developmental-psychology-and-politics-2-meetings"
+class="section level3">
+<h3>9 – Developmental psychology and politics (2 meetings)</h3>
+<p>Abendschön, S., &amp; Tausendpfund, M. (2017). Political Knowledge of
+Children and the Role of Sociostructural Factors. American Behavioral
+Scientist, 61(2), 204–221. <a
+href="https://doi.org/10.1177/0002764216689122"
+class="uri">https://doi.org/10.1177/0002764216689122</a></p>
+<p>Block, J., &amp; Block, J. H. (2006). Nursery school personality and
+political orientation two decades later. <em>Journal of Research in
+Personality</em>, <em>40</em>(5), 734–749. <a
+href="https://doi.org/10.1016/j.jrp.2005.09.005"
+class="uri">https://doi.org/10.1016/j.jrp.2005.09.005</a></p>
+<p>Deary, I. J., Batty, G. D., &amp; Gale, C. R. (2008). Bright Children
+Become Enlightened Adults. <em>Psychological Science</em>,
+<em>19</em>(1), 1–6. <a
+href="https://doi.org/10.1111/j.1467-9280.2008.02036.x"
+class="uri">https://doi.org/10.1111/j.1467-9280.2008.02036.x</a></p>
+<p>Fraley, R. C., Griffin, B. N., Belsky, J., &amp; Roisman, G. I.
+(2012). Developmental Antecedents of Political Ideology: A Longitudinal
+Investigation From Birth to Age 18 Years. <em>Psychological
+Science</em>, <em>23</em>(11), 1425–1431. <a
+href="https://doi.org/10.1177/0956797612440102"
+class="uri">https://doi.org/10.1177/0956797612440102</a></p>
+<p>Smith, K. B., Oxley, D. R., Hibbing, M. V., Alford, J. R., &amp;
+Hibbing, J. R. (2011). Linking Genetics and Political Attitudes:
+Reconceptualizing Political Ideology <em>Political Psychology</em>,
+<em>32</em>(3), 369–397. <a
+href="https://doi.org/10.1111/j.1467-9221.2010.00821.x"
+class="uri">https://doi.org/10.1111/j.1467-9221.2010.00821.x</a></p>
+</div>
+<div id="cognitive-political-psychology-2-meetings"
+class="section level3">
+<h3>10 – Cognitive Political Psychology (2 meetings)</h3>
+<p>Houghton, Chapter 9</p>
+<p>Ehrlinger, J., Plant, E. A., Eibach, R. P., Columb, C. J., Goplen, J.
+L., Kunstman, J. W., &amp; Butz, D. A. (2011). How Exposure to the
+Confederate Flag Affects Willingness to Vote for Barack Obama.
+<em>Political Psychology</em>, <em>32</em>(1), 131–146. <a
+href="https://doi.org/10.1111/j.1467-9221.2010.00797.x"
+class="uri">https://doi.org/10.1111/j.1467-9221.2010.00797.x</a></p>
+<p>Jervis, R. (1993). The drunkard’s search. In <em>Explorations in
+political psychology</em> (pp. 338–360). Duke University Press.</p>
+<p>Lin, C., Adolphs, R., &amp; Alvarez, R. M. (2018). Inferring Whether
+Officials Are Corruptible From Looking at Their Faces. <em>Psychological
+Science</em>, <em>29</em>(11), 1807–1823. <a
+href="https://doi.org/10.1177/0956797618788882"
+class="uri">https://doi.org/10.1177/0956797618788882</a></p>
+<p>Taber, C. S., &amp; Lodge, M. (2016). The Illusion of Choice in
+Democratic Politics: The Unconscious Impact of Motivated Political
+Reasoning: Illusion of Choice in Democratic Politics. <em>Political
+Psychology</em>, <em>37</em>, 61–85. <a
+href="https://doi.org/10.1111/pops.12321"
+class="uri">https://doi.org/10.1111/pops.12321</a></p>
+<p>Todorov, A. (2005). Inferences of Competence from Faces Predict
+Election Outcomes. <em>Science</em>, <em>308</em>(5728), 1623–1626. <a
+href="https://doi.org/10.1126/science.1110589"
+class="uri">https://doi.org/10.1126/science.1110589</a></p>
+</div>
+<div id="identity-and-politics-tribalism-1-meeting"
+class="section level3">
+<h3>11 – Identity and Politics: Tribalism (1 meeting)</h3>
+<p>Clark, C. J., Liu, B. S., Winegard, B. M., &amp; Ditto, P. H. (2019).
+Tribalism is human nature. Current Directions in Psychological Science,
+28(6), 587–592.</p>
+<p>McFarland, S., Webb, M., &amp; Brown, D. (2012). All humanity is my
+ingroup: A measure and studies of identification with all humanity.
+<em>Journal of Personality and Social Psychology</em>, <em>103</em>(5),
+830–853. <a href="https://doi.org/10.1037/a0028724"
+class="uri">https://doi.org/10.1037/a0028724</a></p>
+<p>Mendenhall. (2018). Tribalism By Any Other Name-review of Chua. <a
+href="https://allenmendenhall.com/wp-content/uploads/Tribalism-2.pdf"
+class="uri">https://allenmendenhall.com/wp-content/uploads/Tribalism-2.pdf</a></p>
+</div>
+<div id="last-class-can-the-system-change-1-meeting"
+class="section level3">
+<h3>(Last class) Can the system change? (1 meeting)</h3>
+<p>Grinspan, J. (2015). <em>To Stop an Endless Cycle of Corruption,
+History Says Fix the System, Not the Politician</em>. 4.</p>
+<p>Lewandowsky, S., &amp; Van Der Linden, S. (2021). Countering
+misinformation and fake news through inoculation and prebunking.
+European Review of Social Psychology, 32(2), 348–384. <a
+href="https://doi.org/10/gh4sd8"
+class="uri">https://doi.org/10/gh4sd8</a></p>
+<p>McCarthy, D., &amp; Santucci, J. (2021). Ranked Choice Voting as a
+Generational Issue in Modern American Politics. Politics &amp; Policy,
+49(1), 33–60. <a href="https://doi.org/10.1111/polp.12390"
+class="uri">https://doi.org/10.1111/polp.12390</a></p>
+<p>Wang, S. S.-H., Cervas, J., Grofman, B., &amp; Lipsitz, K. (2021). A
+systems framework for remedying dysfunction in US democracy. Proceedings
+of the National Academy of Sciences, 118(50), e2102154118. <a
+href="https://doi.org/10.1073/pnas.2102154118"
+class="uri">https://doi.org/10.1073/pnas.2102154118</a></p>
+</div>
+<div id="additional-topics-and-sample-readings" class="section level2">
+<h2>Additional topics and sample readings</h2>
+<div id="a-political-neuroscience-0-1-class-tbd" class="section level3">
+<h3>A – Political Neuroscience (0-1 class, TBD)</h3>
+<p>Houghton, Chapter 11</p>
+<p>Hibbing, J. R., Smith, K. B., &amp; Alford, J. R. (2014). Differences
+in negativity bias underlie variations in political ideology.
+<em>Behavioral and Brain Sciences</em>, <em>37</em>(3), 297–307. <a
+href="https://doi.org/10.1017/S0140525X13001192"
+class="uri">https://doi.org/10.1017/S0140525X13001192</a></p>
+<p>Jost, J. T., Nam, H. H., Amodio, D. M., &amp; Van Bavel, J. J.
+(2014). Political Neuroscience: The Beginning of a Beautiful Friendship:
+Political Neuroscience. <em>Political Psychology</em>, <em>35</em>,
+3–42. <a href="https://doi.org/10.1111/pops.12162"
+class="uri">https://doi.org/10.1111/pops.12162</a></p>
+</div>
+<div
+id="b-identity-and-politics-class-race-religion-and-gender-0-2-classes-tbd"
+class="section level3">
+<h3>B – Identity and Politics: Class, race, religion, and gender (0-2
+classes, TBD)</h3>
+<p>Houghton, Chapter 15</p>
+<p>Anonymous (2018) “Israel’s Jewish Nationalist Identity Is Outweighing
+Its Democratic One.” The Economist.</p>
+<p>Cassino, D. (2016). <em>Even the Thought of Earning Less than Their
+Wives Changes How Men Behave</em>. 4.</p>
+<p>Bartels, L. M. (2020). Ethnic antagonism erodes Republicans’
+commitment to democracy. Proceedings of the National Academy of
+Sciences, 117(37), 22752–22759. <a
+href="https://doi.org/10.1073/pnas.2007747117"
+class="uri">https://doi.org/10.1073/pnas.2007747117</a></p>
+<p>Enders, A. M., &amp; Scott, J. S. (2019). The Increasing
+Racialization of American Electoral Politics, 1988-2016. American
+Politics Research, 47(2), 275–303. <a
+href="https://doi.org/10.1177/1532673X18755654"
+class="uri">https://doi.org/10.1177/1532673X18755654</a></p>
+<p>Hochschild, A. R. (2018). <em>Special report: I spent 5 years with
+some of Trump’s biggest fans. Here’s what they won’t tell you.</em>
+16.</p>
+<p>Nohria, N. (2017). <em>The Lines That Divide America</em>. <a
+href="https://www.hbs.edu/faculty/Pages/item.aspx?num=54608"
+class="uri">https://www.hbs.edu/faculty/Pages/item.aspx?num=54608</a></p>
+<p>Paluck, E. L., Green, S. A., &amp; Green, D. P. (2019). The contact
+hypothesis re-evaluated. <em>Behavioural Public Policy</em>,
+<em>3</em>(02), 129–158. <a href="https://doi.org/10.1017/bpp.2018.25"
+class="uri">https://doi.org/10.1017/bpp.2018.25</a></p>
+<p>Tesler, M. (2013). The Return of Old-Fashioned Racism to White
+Americans’ Partisan Preferences in the Early Obama Era. <em>The Journal
+of Politics</em>, <em>75</em>(1), 110–123. <a
+href="https://doi.org/10.1017/S0022381612000904"
+class="uri">https://doi.org/10.1017/S0022381612000904</a></p>
+</div>
+<div id="c-identity-and-politics-partisanship-0-2-classes-tbd"
+class="section level3">
+<h3>C – Identity and Politics: Partisanship (0-2 classes, TBD)</h3>
+<p>Barber, Michael, and Jeremy C. Pope. “Does Party Trump Ideology?
+Disentangling Party and Ideology in America.” American Political Science
+Review 113, no. 1 (February 2019): 38–54. <a
+href="https://doi.org/10.1017/S0003055418000795"
+class="uri">https://doi.org/10.1017/S0003055418000795</a>.</p>
+<p>Finkel, E. J., Bail, C. A., Cikara, M., Ditto, P. H., Iyengar, S.,
+Klar, S., Mason, L., McGrath, M. C., Nyhan, B., &amp; Rand, D. G.
+(2020). Political sectarianism in America. Science, 370(6516),
+533–536.</p>
+<p>Hawkins, C. B., &amp; Nosek, B. A. (2012). Motivated Independence?
+Implicit Party Identity Predicts Political Judgments Among
+Self-Proclaimed Independents. <em>Personality and Social Psychology
+Bulletin</em>, <em>38</em>(11), 1437–1452. <a
+href="https://doi.org/10.1177/0146167212452313"
+class="uri">https://doi.org/10.1177/0146167212452313</a></p>
+<p>Huddy, L., Mason, L., &amp; Aarøe, L. (2015). Expressive
+Partisanship: Campaign Involvement, Political Emotion, and Partisan
+Identity. <em>American Political Science Review</em>, <em>109</em>(1),
+1–17. <a href="https://doi.org/10.1017/S0003055414000604"
+class="uri">https://doi.org/10.1017/S0003055414000604</a></p>
+<p>Iyengar, S., &amp; Westwood, S. J. (2015). Fear and Loathing across
+Party Lines: New Evidence on Group Polarization. American Journal of
+Political Science, 59(3), 690–707. <a href="https://doi.org/10/f7jhfs"
+class="uri">https://doi.org/10/f7jhfs</a></p>
+<p>Iyengar, S., &amp; Krupenkin, M. (2018). The Strengthening of
+Partisan Affect: Strengthening of Partisan Affect. <em>Political
+Psychology</em>, <em>39</em>, 201–218. <a
+href="https://doi.org/10.1111/pops.12487"
+class="uri">https://doi.org/10.1111/pops.12487</a></p>
+</div>
+<div id="d-identity-and-politics-geography-0-1-class-tbd"
+class="section level3">
+<h3>D – Identity and Politics: Geography (0-1 class, TBD)</h3>
+<p>Elleman, L. G., Condon, D. M., Russin, S. E., &amp; Revelle, W.
+(2018). The personality of U.S. states: Stability from 1999 to 2015.
+<em>Journal of Research in Personality</em>, <em>72</em>, 64–72. <a
+href="https://doi.org/10.1016/j.jrp.2016.06.022"
+class="uri">https://doi.org/10.1016/j.jrp.2016.06.022</a></p>
+<p>Feinberg, M., Tullett, A. M., Mensch, Z., Hart, W., &amp; Gottlieb,
+S. (2017). The political reference point: How geography shapes political
+identity. <em>PLOS ONE</em>, <em>12</em>(2), e0171497. <a
+href="https://doi.org/10.1371/journal.pone.0171497"
+class="uri">https://doi.org/10.1371/journal.pone.0171497</a></p>
+<p>Lanning, K., Warfel, E. A., Wetherell, G., Perez, M., Boyd, R., &amp;
+Condon, D. M. (2022). The Personality of American Nations: An
+Exploratory Study. Personality Science, 3, 1–36. <a
+href="https://doi.org/10.5964/ps.7811"
+class="uri">https://doi.org/10.5964/ps.7811</a></p>
+</div>
+<div id="e-the-asymmetry-of-left-and-right-0-2-meetings-tbd"
+class="section level3">
+<h3>E – The (a)symmetry of left and right (0-2 meetings, TBD)</h3>
+<p>Baron, J., &amp; Jost, J. T. (2019). False Equivalence: Are Liberals
+and Conservatives in the United States Equally Biased? <em>Perspectives
+on Psychological Science</em>, <em>14</em>(2), 292–303. <a
+href="https://doi.org/10.1177/1745691618788876"
+class="uri">https://doi.org/10.1177/1745691618788876</a></p>
+<p>Brandt, M. J., Reyna, C., Chambers, J. R., Crawford, J. T., &amp;
+Wetherell, G. (2014). The Ideological-Conflict Hypothesis: Intolerance
+Among Both Liberals and Conservatives. <em>Current Directions in
+Psychological Science</em>, <em>23</em>(1), 27–34. <a
+href="https://doi.org/10.1177/0963721413510932"
+class="uri">https://doi.org/10.1177/0963721413510932</a></p>
+<p>Ditto, P. H., Liu, B. S., Clark, C. J., Wojcik, S. P., Chen, E. E.,
+Grady, R. H., Celniker, J. B., &amp; Zinger, J. F. (2018). <em>At Least
+Bias Is Bipartisan: A Meta-Analytic Comparison of Partisan Bias in
+Liberals and Conservatives</em>. 19.</p>
+<p>Duarte, J. L., Crawford, J. T., Stern, C., Haidt, J., Jussim, L.,
+&amp; Tetlock, P. E. (2015). Political diversity will improve social
+psychological science. <em>Behavioral and Brain Sciences</em>,
+<em>38</em>, e130. <a href="https://doi.org/10.1017/S0140525X14000430"
+class="uri">https://doi.org/10.1017/S0140525X14000430</a></p>
+<p>Jost, J. T. (2017). Ideological Asymmetries and the Essence of
+Political Psychology: Presidential Address. <em>Political
+Psychology</em>, <em>38</em>(2), 167–208. <a
+href="https://doi.org/10.1111/pops.12407"
+class="uri">https://doi.org/10.1111/pops.12407</a></p>
+<p>van der Linden, S., Panagopoulos, C., Azevedo, F., &amp; Jost, J. T.
+(2021). The Paranoid Style in American Politics Revisited: An
+Ideological Asymmetry in Conspiratorial Thinking. Political Psychology,
+42(1), 23–51. <a href="https://doi.org/10.1111/pops.12681"
+class="uri">https://doi.org/10.1111/pops.12681</a></p>
+</div>
+<div id="f-media-effects-in-politics-0-2-meetings-tbd"
+class="section level3">
+<h3>F – Media Effects in Politics (0-2 meetings, TBD)</h3>
+<p>Houghton, Chapter 13</p>
+<p>Baumgartner, J. C., J. S. Morris, and N. L. Walth. “The Fey Effect:
+Young Adults, Political Humor, and Perceptions of Sarah Palin in the
+2008 Presidential Election Campaign.” Public Opinion Quarterly 76, no. 1
+(March 1, 2012): 95–104. <a href="https://doi.org/10/gfzx3n"
+class="uri">https://doi.org/10/gfzx3n</a>.</p>
+<p>Baumgartner, Jody C, and Brad Lockerbie. “Maybe It Is More Than a
+Joke: Satire, Mobilization, and Political Participation*: Satire,
+Mobilization, and Political Participation.” Social Science Quarterly 99,
+no. 3 (September 2018): 1060–74. <a
+href="https://doi.org/10.1111/ssqu.12501"
+class="uri">https://doi.org/10.1111/ssqu.12501</a>.</p>
+<p>Bond, Robert M., Christopher J. Fariss, Jason J. Jones, Adam D. I.
+Kramer, Cameron Marlow, Jaime E. Settle, and James H. Fowler. “A
+61-Million-Person Experiment in Social Influence and Political
+Mobilization.” Nature 489, no. 7415 (September 2012): 295–98. <a
+href="https://doi.org/10/f3689v"
+class="uri">https://doi.org/10/f3689v</a>.</p>
+<p>Guess, A. M. (2021). (Almost) Everything in Moderation: New Evidence
+on Americans’ Online Media Diets. American Journal of Political Science,
+65(4), 1007–1022. <a href="https://doi.org/10.1111/ajps.12589"
+class="uri">https://doi.org/10.1111/ajps.12589</a></p>
+<p>Hoffman, Lindsay H., and Dannagal G. Young. “Satire, Punch Lines, and
+the Nightly News: Untangling Media Effects on Political Participation.”
+Communication Research Reports 28, no. 2 (April 27, 2011): 159–68. <a
+href="https://doi.org/10/c3m5w5"
+class="uri">https://doi.org/10/c3m5w5</a>.</p>
+<p>Iyengar, Shanto, Mark D Peters, and Donald R Kinder. “Experimental
+Demonstrations of the Not-So- Minimal Consequences of Television News
+Programs,” 1982, 17.</p>
+<p>Muise, D., Hosseinmardi, H., Howland, B., Mobius, M., Rothschild, D.,
+&amp; Watts, D. J. (2022). Quantifying partisan news diets in Web and TV
+audiences. Science Advances, 8(28), eabn0083. <a
+href="https://doi.org/10.1126/sciadv.abn0083"
+class="uri">https://doi.org/10.1126/sciadv.abn0083</a></p>
+<p>Slater, M. D. (2007). Reinforcing Spirals: The Mutual Influence of
+Media Selectivity and Media Effects and Their Impact on Individual
+Behavior and Social Identity. <em>Communication Theory</em>,
+<em>17</em>(3), 281–303. <a
+href="https://doi.org/10.1111/j.1468-2885.2007.00296.x"
+class="uri">https://doi.org/10.1111/j.1468-2885.2007.00296.x</a></p>
+<p>Stroud, N. J. (2010). Polarization and Partisan Selective Exposure.
+<em>Journal of Communication</em>, <em>60</em>(3), 556–576. <a
+href="https://doi.org/10.1111/j.1460-2466.2010.01497.x"
+class="uri">https://doi.org/10.1111/j.1460-2466.2010.01497.x</a></p>
+</div>
+<div id="g-the-psychology-of-political-campaigns-0-2-meetings-tbd"
+class="section level3">
+<h3>G – The Psychology of Political Campaigns (0-2 meetings, TBD)</h3>
+<p>Druckman, J. N. (2022). A Framework for the Study of Persuasion.
+Annual Review of Political Science, 25(1), 65–88. <a
+href="https://doi.org/10.1146/annurev-polisci-051120-110428"
+class="uri">https://doi.org/10.1146/annurev-polisci-051120-110428</a></p>
+<p>Gotlieb, M. R., Scholl, R. M., Ridout, T. N., Goldstein, K. M., &amp;
+Shah, D. V. (2015). Cumulative and Long-Term Campaign Advertising
+Effects on Trust and Talk. <em>International Journal of Public Opinion
+Research</em>, edv047. <a href="https://doi.org/10.1093/ijpor/edv047"
+class="uri">https://doi.org/10.1093/ijpor/edv047</a></p>
+<p>Iyengar, S., &amp; Simon, A. F. (2000). New Perspectives and Evidence
+on Political Communication and Campaign Effects. <em>Annual Review of
+Psychology</em>, <em>51</em>(1), 149–169. <a
+href="https://doi.org/10.1146/annurev.psych.51.1.149"
+class="uri">https://doi.org/10.1146/annurev.psych.51.1.149</a></p>
+<p>Lau, R. R., Sigelman, L., &amp; Rovner, I. B. (2007). The Effects of
+Negative Political Campaigns: A Meta-Analytic Reassessment. <em>The
+Journal of Politics</em>, <em>69</em>(4), 1176–1209. <a
+href="https://doi.org/10.1111/j.1468-2508.2007.00618.x"
+class="uri">https://doi.org/10.1111/j.1468-2508.2007.00618.x</a></p>
+<p>Stevens, D., Sullivan, J., Allen, B., &amp; Alger, D. (2008). What’s
+Good for the Goose is Bad for the Gander: Negative Political
+Advertising, Partisanship, and Turnout. <em>The Journal of
+Politics</em>, <em>70</em>(2), 527–541. <a
+href="https://doi.org/10/cw25wj"
+class="uri">https://doi.org/10/cw25wj</a></p>
+</div>
+<div id="h---truth-trust-and-fake-news-0-2-meetings-tbd"
+class="section level3">
+<h3>H - Truth, Trust, and Fake News (0-2 meetings, TBD)</h3>
+<p>Flynn, D. J., Nyhan, B., &amp; Reifler, J. (2017). The Nature and
+Origins of Misperceptions: Understanding False and Unsupported Beliefs
+About Politics. <em>Political Psychology</em>, <em>38</em>, 127–150. <a
+href="https://doi.org/10.1111/pops.12394"
+class="uri">https://doi.org/10.1111/pops.12394</a></p>
+<p>Pennycook, G., &amp; Rand, D. G. (2021). The psychology of fake news.
+Trends in Cognitive Sciences, 25(5), 388–402.</p>
+<p>Sullivan, J. L., &amp; Transue, J. E. (1999). THE PSYCHOLOGICAL
+UNDERPINNINGS OF DEMOCRACY: A Selective Review of Research on Political
+Tolerance, Interpersonal Trust, and Social Capital. <em>Annual Review of
+Psychology</em>, <em>50</em>(1), 625–650. <a
+href="https://doi.org/10/cmthvk"
+class="uri">https://doi.org/10/cmthvk</a></p>
+<p>Wood, T., &amp; Porter, E. (2019). The Elusive Backfire Effect: Mass
+Attitudes’ Steadfast Factual Adherence. <em>Political Behavior</em>,
+<em>41</em>(1), 135–163. <a
+href="https://doi.org/10.1007/s11109-018-9443-y"
+class="uri">https://doi.org/10.1007/s11109-018-9443-y</a></p>
+<hr />
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

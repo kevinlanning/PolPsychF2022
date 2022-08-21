@@ -1,5 +1,6 @@
 ---
-title: "IntroDataSci"
+title: "Personality"
 ---
 
-Course website for Wilkes Honors College Introduction to Data Science, Spring 2021.
+Course website for Professor Lanning's Wilkes Honors College **Introduction to Personality**.
+
