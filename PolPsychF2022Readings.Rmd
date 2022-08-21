@@ -1,5 +1,5 @@
 ---
-title: "Readings"
+title: "readings"
 output: html_document
 date: "2022-08-20"
 ---
