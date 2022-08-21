@@ -1,0 +1,17 @@
+name: "intro to data science"
+output_dir: "."
+navbar:
+  title: ""
+  left:
+    - text: "honors intro data sci"
+      href: index.html
+    - text: "syllabus"
+      href: syllabus.html
+    - text: "schedule"
+      href: schedule.html
+    - text: "R4DS (Wickham)" 
+      href: https://r4ds.had.co.nz/introduction.html
+    - text: "dsla (Lanning)"
+      href: https://kevinlanning.github.io/DataSciLibArts/
+    - text: "RStudio Cloud"
+      href: https://rstudio.cloud/
