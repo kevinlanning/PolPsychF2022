@@ -10,7 +10,7 @@ This document is current as of `r Sys.Date()`.
 
 ### basics
 
-This is POS 4206 Section 1. It is a 3 credit class offered in the **Fall 2022** term. The class meets **MW 930-1150 in SR 258**. There is no lab.
+This is POS 4206 Section 1. It is a 3 credit class offered in the **Fall 2022** term. The class meets **MW 930-1150 in AD 205**. There is no lab.
 
 The professor is Kevin Lanning. My office hours are **M 3-5** (in person, WB 105) and **F 1230-2** (virtually, via Zoom). You may schedule virtual appointments at <https://calendly.com/kevin-lanning>. My office phone is (561) 594-1018, but it is quicker to reach me via email at [lanning\@fau.edu](mailto:lanning@fau.edu){.email}.
 
