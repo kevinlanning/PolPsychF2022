@@ -13,7 +13,7 @@
 
 <title>political psychology</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
@@ -129,15 +129,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -247,6 +243,9 @@ $(document).ready(function () {
   <a href="PolPsychF2022Schedule.html">schedule</a>
 </li>
 <li>
+  <a href="PolPsychF2022Readings.html">readings</a>
+</li>
+<li>
   <a href="https://canvas.fau.edu/courses/124971">canvas</a>
 </li>
       </ul>
@@ -270,7 +269,7 @@ $(document).ready(function () {
 <em>Political Psychology</em> course taught by Professor Kevin Lanning.
 It is a work in progress, and will be continuously revised throughout
 the term.</p>
-<p>- <em>revised August 18, 2022</em></p>
+<p>- <em>revised August 21, 2022</em></p>
 
 
 
